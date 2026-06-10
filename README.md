@@ -6,13 +6,13 @@ This project predicts diamond prices using the K-Nearest Neighbors (KNN) Regress
 
 The project demonstrates the complete machine learning workflow, including data preprocessing, exploratory data analysis, model training, evaluation, and prediction.
 
----
+
 
 ## Objective
 
 The primary objective of this project is to build a machine learning model that can accurately predict diamond prices based on their physical and quality-related attributes.
 
----
+
 
 ## Dataset
 
@@ -33,7 +33,7 @@ The dataset contains information about diamonds and their corresponding prices.
 | Z | Depth (mm) |
 | Price | Target variable |
 
----
+
 
 ## Technologies Used
 
@@ -45,7 +45,7 @@ The dataset contains information about diamonds and their corresponding prices.
 - Scikit-learn
 - Jupyter Notebook
 
----
+
 
 ## Exploratory Data Analysis
 
@@ -58,7 +58,7 @@ The following analyses were performed:
 - Feature distribution visualization
 - Outlier detection
 
----
+
 
 ## Machine Learning Model
 
@@ -78,7 +78,7 @@ KNN predicts the price of a diamond by finding the K nearest diamonds in the dat
 6. Model Evaluation
 7. Prediction
 
----
+
 
 ## Model Evaluation
 
@@ -91,6 +91,91 @@ The model performance was evaluated using the following metrics:
 
 These metrics help assess the accuracy and reliability of the prediction model.
 
----
+
 
 ## Project Structure
+
+
+
+Diamond_Price_Prediction_Using_KNN/
+│
+├── Diamond_Price_Prediction.ipynb
+├── diamonds.csv
+├── README.md
+└── requirements.txt
+
+
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Gayathri-7095/Diamond_Price_Prediction_Using_KNN.git
+````
+
+Navigate to the project directory:
+
+```bash
+cd Diamond_Price_Prediction_Using_KNN
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+
+
+## Usage
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Open the notebook file and run all cells to train the model and make predictions.
+
+
+
+## Results
+
+The KNN Regression model was trained on the diamond dataset and evaluated using standard regression metrics. The model demonstrates the effectiveness of instance-based learning for price prediction tasks.
+
+
+
+## Key Learnings
+
+* Data preprocessing and feature engineering
+* Exploratory Data Analysis (EDA)
+* KNN Regression implementation
+* Feature scaling techniques
+* Model evaluation and performance analysis
+* Predictive analytics using machine learning
+
+
+
+## Future Improvements
+
+* Hyperparameter tuning using GridSearchCV
+* Comparison with other regression algorithms
+* Model deployment using Streamlit or Flask
+* Real-time prediction interface
+* Improved feature engineering
+
+
+## Author
+
+Gayathri Polepalli
+
+GitHub: [https://github.com/Gayathri-7095](https://github.com/Gayathri-7095)
+
+LinkedIn: [https://www.linkedin.com/in/gayathri-polepalli](https://www.linkedin.com/in/gayathri-polepalli)
+
+
+## License
+
+This project is intended for educational and learning purposes.
+
